@@ -7,7 +7,7 @@ alum_2y9 = 0
 
 for i in range(0,num_alumnos):
   nota = int(input('ingrese la nota del alumno: '))
-  while nota < 6 & > 2:
+  while nota < 6 & nota > 2:
     alum_2y9 += 1
     if nota < 4:
       reprobados += 1
